@@ -33,7 +33,7 @@ public class KillPlayer : MonoBehaviour {
     void OnCollisionEnter2D(Collision2D collision)
     {
         lives--;
-        SetLiveText();
+        SetLiveText(); //update the lives text
         if (lives > 0)
         {
             Invoke("Respawn", 0.1f);
