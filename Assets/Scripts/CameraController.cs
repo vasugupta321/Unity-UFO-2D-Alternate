@@ -7,8 +7,6 @@ public class CameraController : MonoBehaviour {
 	public GameObject player;
 
 	//offset is private cause we can set its value in the script
-	//for offset value we tale current transform postion of camera and
-	//subtract the transform position of player and we do this in start ()
 	private Vector3 offset;
 
 	// Use this for initialization
